@@ -13,7 +13,10 @@ port   		: '80',
 ip_address 	: '*',
 host_header : 'www.mysite.com',
 app_pool    : 'my_application_pool'
+
+Note:
 --
+
 Module for puppet that can be used to create sites, application pools and virtual applications with IIS 7 and above.
 
 
