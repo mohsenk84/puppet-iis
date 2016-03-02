@@ -7,12 +7,12 @@ webserver role includes two profiles: base and iis
 profile base is doing nothing. reserverd for basic tools
 profile iis: is being used in order to create a website with details below: 
 --
-url			: 'www.mysite.com':
-path 		: 'C:\inetpub\wwwroot\mysite',
-port   		: '80',
-ip_address 	: '*',
-host_header : 'www.mysite.com',
-app_pool    : 'my_application_pool'
+ - url			: 'www.mysite.com':
+ - path 		: 'C:\inetpub\wwwroot\mysite',
+ - port   		: '80',
+ - ip_address 	: '*',
+ - host_header : 'www.mysite.com',
+ - app_pool    : 'my_application_pool'
 
 Note:
 --
